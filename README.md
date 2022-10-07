@@ -18,6 +18,7 @@ I chose the following
 - [Linear Gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode)
 - [Background Blend Mode](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient)
 - [Blend Mode Visualizer](https://acidtone.github.io/blendr/)
+- [Box Shadow Generator](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Box-shadow_generator)
 - [Pexels - Banner Image](https://www.pexels.com/photo/2-motorcycle-racing-on-asphalt-road-during-daytime-62661/)
 - [CPNT260 - Assingment 2 Card](https://github.com/silentchallenger/cpnt260-a2)
 - [CPNT260 - Assingment 3 404 Not Found Page](https://github.com/silentchallenger/cpnt260-a3)
