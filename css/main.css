@@ -101,13 +101,16 @@ nav ul {
 .banner-title p {
   /* Hero Section Secondary Text Styling */
   font-size: clamp(20px, 3vw, 32px);
+
+  max-width: 30ch;
+  margin: 3em auto;
   
   color: white;
 }
 
 .card {
   /* Button Container */
-  max-width: 27ch;
+  max-width: 30ch;
   margin: 2em auto;
 
   background-color: white;
@@ -119,6 +122,8 @@ nav ul {
 .card a {
   /* Button Content Style */
   display: block;
+
+  font-size: clamp(18px, 2vw, 22px);
 
   padding: 0.5em;
   margin: auto;
@@ -165,7 +170,7 @@ footer p {
 }
 
 .footer-area {
-  /* Main Flexbox */
+  /* Main Bottom Flexbox */
   display: flex;
   flex-direction: column;
 
@@ -215,23 +220,32 @@ footer p {
   padding: 0.5em;
 }
 
-@media only screen and (min-width: 41.5em) {
+@media only screen and (min-width: 45em) {
   .top-bar {
+    /* Top Navigation Area */
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .site-title {
-    padding: 0 0.5em;
+    /* Website Title Styling */
+    padding: 0 1em;
+  }
+
+  .banner-title p {
+    /* Hero Section Secondary Text Styling */
+    margin: auto;
   }
 
   .main-nav ul {
+    /* Main Navigation Styling */
     display: flex;
     justify-content: space-evenly;
   }
 
   .footer-area {
+    /* Main Bottom Flexbox */
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
