@@ -138,9 +138,6 @@ nav ul {
   /* Button Hover State */
   background-color: #2a9d8f;
   transition: all 200ms ease-out;
-  
-
-  color: white !important;
 }
 
 main {
