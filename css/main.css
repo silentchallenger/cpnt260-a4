@@ -14,57 +14,27 @@ body {
 }
 
 a, a:visited {
+  /* Link colors */
   text-decoration: none;
   
-  color: brown;
+  color: black;
 }
 
 nav ul {
+  /* Navigation Styling */
   margin-bottom: auto;
 }
 
-
-
-article {
-  /* Card Container */
-  max-width: 27ch;
-  margin: 2em auto;
-  border: 2px groove red;
-
-  background-color: hsl(180, 70%, 95%);
-
-  font-family: 'Reem Kufi', 'Trebuchet MS', cursive;
-}
-
-
-article a {
-  /* Card Content Style */
-  display: block;
-
-  padding: 0.5em;
-  margin: auto;
-
-  text-align: center;
-  text-decoration: none;
-  color: rgb(220, 0, 0);
-}
-
-article:hover {
-  /* Card Hover State */
-  background-color: aqua;
-}
-
-
-
-
-
 .top-bar {
+  /* Top Navigation Area */
   text-align: center;
 
-  background-color: aqua;
+  background-color: #e76f51;
 }
 
 .site-title {
+  /* Website Title Styling */
+  font-family: 'Reem Kufi Fun', 'Trebuchet MS', sans-serif;
   font-size: 30px;
 
   margin: 0;
@@ -72,6 +42,7 @@ article:hover {
 }
 
 .main-nav ul {
+  /* Main Navigation Styling */
   padding-left: 0;
 
   margin: auto;
@@ -79,24 +50,27 @@ article:hover {
   list-style: none;
 }
 
-.main-nav a, .secondary-nav a {
+.main-nav a {
+  /* Main Navigation Button Styling */
   display: block;
-  padding: 1em 1em;
-
+  padding: 1em;
 }
 
 .main-nav ul a:hover {
-  color: #b00;
+  /* Main Navigation Button Hover State Styling */
+  color: white;
 
-  background-color: cadetblue;
+  background-color: #2a9d8f;
   box-shadow: 0 0 6px rgba(35, 173, 278, 1)
 }
 
 .main-nav ul li {
-  background-color: lightgray;
+  /* /* Main Navigation Button Background */
+  background-color: #e9c46a;
 }
 
 .banner-title {
+  /* Hero Section Styling */
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -106,27 +80,58 @@ article:hover {
   margin: 0;
 
   background: url('../images/banner.jpg'),
-  linear-gradient(#2193b0, #6dd5ed);
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-blend-mode: hard-light;
+  background-blend-mode: darken;
 }
 
 .banner-title h1 {
+  /* Hero Section Main Text Styling */
   font-family: 'Reem Kufi Fun', Arial, Helvetica, cursive;
-  font-size: clamp(64px, 10vw, 96px);
+  font-size: clamp(64px, 10vw, 108px);
 
-  color: red;
+  color: #e9c46a;
 
   margin-bottom: 0;
 }
 
 .banner-title p {
+  /* Hero Section Secondary Text Styling */
   font-size: clamp(20px, 3vw, 32px);
   
   color: white;
+}
 
+.card {
+  /* Button Container */
+  max-width: 27ch;
+  margin: 2em auto;
+
+  background-color: white;
+
+  font-family: 'Reem Kufi', 'Trebuchet MS', cursive;
+}
+
+
+.card a {
+  /* Button Content Style */
+  display: block;
+
+  padding: 0.5em;
+  margin: auto;
+
+  text-align: center;
+  text-decoration: none;
+  /* color: white; */
+}
+
+.card:hover {
+  /* Button Hover State */
+  background-color: #2a9d8f;
+
+  color: white;
 }
 
 main {
@@ -141,10 +146,11 @@ main {
 
 footer {
   /* Footer Area */
-  background-color: cyan;
+  background-color: #e76f51;
 }
 
 footer p {
+  /* Copyright Text Styling */
   font-size: 20px;
   font-weight: bold;
   text-align: center;
@@ -167,6 +173,7 @@ footer p {
 }
 
 .bottom-logo-title {
+  /* Bottom Website Title Styling */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,7 +184,7 @@ footer p {
 }
 
 .fa {
-  /* Social Links */
+  /* Social Button Links */
   width: 25px;
 }
 
@@ -185,8 +192,14 @@ footer p {
   opacity: 0.7;
 }
 
+.secondary-nav a {
+  /* Bottom Navigation Button Styling */
+  display: block;
+  padding: 0.5em;
+}
+
 .secondary-nav ul {
-  /* Secondary Navigation */
+  /* Secondary Navigation Styling */
   list-style: none;
   padding-left: 0px;
 }
